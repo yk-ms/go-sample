@@ -19,32 +19,16 @@ This is a sample Go project configured to run in a Docker container using Docker
 1. **Build the Docker Image**
 
    ```bash
-   make docker-build
-   ```
-
-2. **Run the Application**
-
-   ```bash
-   make docker-run
-   ```
-
-   The application will be accessible at `http://localhost:8080`.
-
-## Development
-
-To build and run the application locally without Docker:
-
-1. **Build the Application**
-
-   ```bash
    make build
    ```
 
 2. **Run the Application**
 
    ```bash
-   make run
+   make up
    ```
+
+   The application will be accessible at `http://localhost:8080`.
 
 ## Sample
 
